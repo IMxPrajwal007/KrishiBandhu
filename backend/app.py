@@ -5,6 +5,7 @@ Run: python app.py  →  http://localhost:5000
 import os, warnings
 import numpy as np
 from flask import Flask, request, jsonify, send_from_directory
+from flask_cors import CORS
 from dotenv import load_dotenv
 import requests as req_lib
 warnings.filterwarnings('ignore')
